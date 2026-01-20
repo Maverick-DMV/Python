@@ -1,0 +1,17 @@
+import board
+import digitalio
+import time
+
+led = digitalio.DigitalInOut(board.LED)
+led.direction = digitalio.Direction.OUTPUT
+print(dir(led))
+print('')
+print(dir(board))
+right_button = digitalio.DigitalInOut(board.BUTTON_B)
+right_button.direction = digitalio.Direction.INPUT
+right_button.pull = digitalio.Pull.DOWN
+print('')
+print(dir(right_button))
+
+while True:
+    led.value = right_button.value
