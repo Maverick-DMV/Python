@@ -1,0 +1,11 @@
+x = 1
+y = 2
+while True:
+  print('x =',x,'\ny =',y)
+  z = x + y
+  print('x + y = ',z)
+  if (z == 10) :
+    break
+  x +=7
+  print('y is still',y,'but x is now',x)
+print('Done!')
