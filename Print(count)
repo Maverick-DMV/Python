@@ -1,0 +1,6 @@
+n = 0
+print("Starting While Loop - Print Count Variable")
+while n < 10 :
+    print(n)
+    n = n + 1
+print("Ending While Loop")
