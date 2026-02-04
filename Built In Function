@@ -1,0 +1,24 @@
+# Python Lab
+print('Playing with Builtin Python Functions')
+student_name = "Maverick Daniel Velez"
+program_creation_date = "02/4/2026"
+print(student_name)
+print(program_creation_date)    
+x = input('Enter Your Name:')
+print("Hello," + x)
+y = int(10.7)
+print(y)
+a = ('Apple','Pen','Apple_Pen')
+b = ("HELLO")
+c = 100
+x = type(a)
+y = type(b)
+z = type(c)
+print(x)
+print(y)
+print(z)
+x = abs(3+8j)
+print(x)
+mylist = ["Pen","Pinapple","Pinapple_Pen"]
+x = len(mylist)
+print(x)
