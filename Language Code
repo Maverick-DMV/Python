@@ -1,0 +1,24 @@
+def greet(lang):
+  if lang == 'es':
+    return'Hola'
+  elif lang == 'fr':
+    return'Bonjour'
+  elif lang == 'uk': 
+    return'привіт'
+  else:
+    return'Hello'
+
+def main():
+    print(greet('en'),'Glenn')
+    print(greet('fr'),'Sabine')
+    print(greet('es'),'Carlos')
+    print(greet('uk'),'Ben')
+    
+main()
+
+print("Enter your name:")
+x = input()
+print("Hello, " + x)
+print("Enter Language:")
+y = input()
+print("Cool, you speak " + y)
